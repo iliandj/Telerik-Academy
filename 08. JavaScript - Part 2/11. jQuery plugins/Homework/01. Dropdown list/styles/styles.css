@@ -1,0 +1,16 @@
+#wrapper {
+    font-family: Segoe UI, Arial, sans-serif;
+}
+
+#wrapper #dropdown-box ul, li {
+    list-style: none;
+    margin: 1px;
+    padding: 0;
+    width: 120px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}

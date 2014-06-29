@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Selects all the div nodes</title>
+    <style>
+        div {
+            width: 250px;
+            border: 2px solid black;
+            text-align: center;
+            margin: 5px;
+            padding: 5px;
+        }
+        div div {
+            width: auto;
+            background: silver;
+        }
+    </style>
+</head>
+
+<body>
+    <p>01. Write a script that selects all the div nodes that are directly inside other div elements.</p>
+    <ul>
+        <li>Create a function using querySelectorAll()</li>
+        <li>Create a function using getElementsByTagName()</li>
+    </ul>
+    <div>Empty div: 1</div>
+    <div>
+        <div>Div directly inside another div: 1</div>
+        <div>Div directly inside another div: 2</div>
+        <header>
+            <div>Div directly inside header: 1</div>
+        </header>
+    </div>
+    <div>Empty div: 2</div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

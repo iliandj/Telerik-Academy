@@ -1,0 +1,13 @@
+.color-selector-content
+{
+    width: 150px; 
+}
+
+.color-selector-content form
+{
+    font-family: Segoe UI, Arial;
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}

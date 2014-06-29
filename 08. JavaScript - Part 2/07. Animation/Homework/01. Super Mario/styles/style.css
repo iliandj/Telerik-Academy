@@ -1,0 +1,17 @@
+#wrapper > #svg-paper,
+#wrapper > #canvas-stage
+{
+    margin: 0;
+    padding: 0;
+    width: 960px;
+    height: 600px;
+	display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#canvas-stage
+{
+    z-index: 1000;
+}

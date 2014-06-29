@@ -1,0 +1,30 @@
+.mongo-db-circle
+{
+    fill: #3e3f37;
+}
+
+.express-circle
+{
+    fill: #282827;
+}
+
+.angular-js-circle
+{
+    fill: #E23337;
+}
+
+.node-js-circle
+{
+    fill: #8EC74E;
+}
+
+#mean-image text
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+#mean-image .inner-text
+{
+    font-family: Arial;
+    fill: #ffffff;
+}

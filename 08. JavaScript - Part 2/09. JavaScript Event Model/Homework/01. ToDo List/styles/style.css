@@ -1,0 +1,48 @@
+#task-input,
+#task-list{
+    width: 300px;
+}
+
+#task-input
+{
+    border: 1px solid black;
+}
+
+#task-list {
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+#task-list li {
+    list-style-type: none;
+    display: block;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+#task-list li:last-child {
+    border: none;
+}
+
+.done {
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+.delete-button {
+    float: right;
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+    width: 270px;
+    overflow: hidden;
+    text-overflow: clip;
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript UI &amp; DOM - Program table</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div id="table"></div>
+    <script type="text/x-handlebars-template" id="program-table-template">
+    <table class="program-table">
+        <thead>
+            <tr class="head">
+                {{#head}}
+                <th class="title">{{title}}</th>
+                {{/head}}
+            </tr>
+        </thead>
+        <tbody class="rows">
+            {{#rows}}
+            <tr>
+                <td class="number">{{@index}}</td>
+                <td class="title">{{title}}</td>
+                <td class="date1">{{date1}}</td>
+                <td class="date2">{{date2}}</td>
+            </tr>
+            {{/rows}}
+        </tbody>
+    </table>
+    </script>
+    <script src="libs/handlebars.min.js"></script>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
