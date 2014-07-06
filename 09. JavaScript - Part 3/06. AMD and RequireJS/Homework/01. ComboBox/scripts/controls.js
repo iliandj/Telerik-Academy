@@ -26,11 +26,13 @@ define(['jquery', 'handlebars'], function ($, Handlebars) {
             $comboBoxElement.append(html);
 
             $comboBoxElement.find('div').hide().first().show();
-            $comboBoxElement.on('click', '.person-item', function (ev) {
+            $comboBoxElement.on('click', '.person-item', function () {
                 var $this,
                     $parent,
                     $items,
-                    collapsed;
+                    collapsed,
+                    oldItemId,
+                    currentItemId;
                 $this = $(this);
                 $parent = $this.parent();
                 $items = $parent.find('.person-item');
@@ -40,8 +42,9 @@ define(['jquery', 'handlebars'], function ($, Handlebars) {
                     $parent.attr('collapsed', 'false');
                 } else {
                     $items.hide();
+                    $items.removeClass('current');
                     $this.show();
-                    //addClass('current')
+                    $this.addClass('current');
                     $parent.attr('collapsed', 'true');
                 }
             });

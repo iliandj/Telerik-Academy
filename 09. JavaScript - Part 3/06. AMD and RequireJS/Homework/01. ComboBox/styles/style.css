@@ -1,11 +1,9 @@
-#combo-box
-{
+#combo-box {
     font-family: Segoe UI, Arial, sans-serif;
     text-align: center;
 }
 
-#combo-box div.person-item
-{
+#combo-box div.person-item {
     width: 120px;
     border: 1px solid gray;
     color: #323435;
@@ -14,8 +12,7 @@
     box-shadow: 2px 2px 4px #888888;
 }
 
-#combo-box div.person-item:hover
-{
+#combo-box div.person-item:hover {
     cursor: pointer;
     background-color: lightgoldenrodyellow;
     border: 1px solid firebrick;
@@ -27,41 +24,35 @@
     user-select: none;
 }
 
-#combo-box div.person-item:active
-{
+#combo-box div.person-item:active {
     box-shadow: none;
-    -webkit-transform:translate(2px, 2px);
-    -moz-transform:translate(2px, 2px);
-    -ms-transform:translate(2px, 2px);
-    -o-transform:translate(2px, 2px);
-    transform:translate(2px, 2px)
+    -webkit-transform: translate(2px, 2px);
+    -moz-transform: translate(2px, 2px);
+    -ms-transform: translate(2px, 2px);
+    -o-transform: translate(2px, 2px);
+    transform: translate(2px, 2px)
 }
 
-#combo-box div.person-item.current
-{
-    color: red;
+#combo-box div.person-item.current {
+    background-color: #F5EEB4;
 }
 
-#combo-box div.person-item:not(:last-of-type)
-{
+#combo-box div.person-item:not(:last-of-type) {
     margin-bottom: 2px;
 }
 
-#combo-box div.person-item img
-{
+#combo-box div.person-item img {
     border: 1px solid gray;
     margin: 5px;
 }
 
-#combo-box div.person-item .person-name
-{
+#combo-box div.person-item .person-name {
     display: inline-block;
     margin: 3px 0px;
     padding: 0;
 }
 
-#combo-box div.person-item .person-age
-{
+#combo-box div.person-item .person-age {
     margin: 3px 0px;
     padding: 0;
 }
